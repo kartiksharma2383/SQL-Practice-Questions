@@ -1,0 +1,334 @@
+SQL_Basic(Foundations):
+
+Easy (1–20):
+
+1. Create a table `Students` with columns `StudentID`, `Name`, `Age`, `Grade`.
+   [SQLZoo: CREATE TABLE](https://sqlzoo.net/wiki/CREATE_TABLE)
+
+2. Insert 5 records into `Students`.
+   [W3Schools: INSERT INTO](https://www.w3schools.com/sql/sql_insert.asp)
+
+3. Select all columns from `Students`.
+   [SQLZoo: SELECT Basics](https://sqlzoo.net/wiki/SELECT_basics)
+
+4. Select only `Name` and `Age` columns.
+   [W3Schools: SELECT](https://www.w3schools.com/sql/sql_select.asp)
+
+5. Select students aged 18.
+   [HackerRank: Select](https://www.hackerrank.com/challenges/select-all-sql/problem)
+
+6. Select students whose grade is `'A'`.
+   [SQLZoo: SELECT WHERE](https://sqlzoo.net/wiki/SELECT_within_SELECT)
+
+7. Select students whose grade is `'A'` or `'B'` using `IN`.
+   [W3Schools: WHERE IN](https://www.w3schools.com/sql/sql_in.asp)
+
+8. Select students whose name starts with `'J'` using `LIKE`.
+   [SQLZoo: LIKE](https://sqlzoo.net/wiki/LIKE)
+
+9. Select students whose name contains `'a'` using `LIKE`.
+   [W3Schools: LIKE](https://www.w3schools.com/sql/sql_like.asp)
+
+10. Order students by `Age` ascending.
+    [HackerRank: Order By](https://www.hackerrank.com/challenges/sorting/problem)
+
+11. Order students by `Age` descending.
+    [W3Schools: ORDER BY](https://www.w3schools.com/sql/sql_orderby.asp)
+
+12. Limit results to the first 3 students.
+    [SQLZoo: LIMIT](https://sqlzoo.net/wiki/SELECT_basics)
+
+13. Limit results to 5 students ordered by `Grade`.
+    [W3Schools: LIMIT](https://www.w3schools.com/sql/sql_top.asp)
+
+14. Select students whose age is between 18 and 21.
+    [SQLZoo: BETWEEN](https://sqlzoo.net/wiki/SELECT_basics)
+
+15. Select students whose age is not 20.
+    [W3Schools: WHERE NOT](https://www.w3schools.com/sql/sql_where.asp)
+
+16. Select students whose name is not `'John'`.
+    [SQLZoo: WHERE NOT](https://sqlzoo.net/wiki/SELECT_basics)
+
+17. Select distinct grades from `Students`.
+    [W3Schools: DISTINCT](https://www.w3schools.com/sql/sql_distinct.asp)
+
+18. Count the number of students.
+    [SQLZoo: COUNT](https://sqlzoo.net/wiki/SUM_and_COUNT)
+
+19. Find the maximum age of students.
+    [W3Schools: MAX()](https://www.w3schools.com/sql/sql_func_max.asp)
+
+20. Find the minimum age of students.
+    [W3Schools: MIN()](https://www.w3schools.com/sql/sql_func_min.asp)
+
+Intermediate (21–40):
+
+21. Find the average age of students.
+    [SQLZoo: AVG()](https://sqlzoo.net/wiki/SUM_and_COUNT)
+
+22. Sum of all students’ ages.
+    [W3Schools: SUM()](https://www.w3schools.com/sql/sql_func_sum.asp)
+
+23. Select students whose grade is `'A'` and age > 18.
+    [HackerRank: Select](https://www.hackerrank.com/challenges/select-all-sql/problem)
+
+24. Select students whose grade is `'B'` or `'C'` and age < 20.
+    [SQLZoo: SELECT WHERE](https://sqlzoo.net/wiki/SELECT_within_SELECT)
+
+25. Select students whose name ends with `'n'` using `LIKE`.
+    [W3Schools: LIKE](https://www.w3schools.com/sql/sql_like.asp)
+
+26. Select students whose age is either 18 or 20 using `IN`.
+    [SQLZoo: IN](https://sqlzoo.net/wiki/SELECT_basics)
+
+27. Use alias to rename `StudentID` as `ID` in output.
+    [W3Schools: AS](https://www.w3schools.com/sql/sql_alias.asp)
+
+28. Concatenate `FirstName` and `LastName` into `FullName`.
+    [SQLZoo: CONCAT](https://sqlzoo.net/wiki/SELECT_basics)
+
+29. Update the grade of a student where `StudentID = 1`.
+    [W3Schools: UPDATE](https://www.w3schools.com/sql/sql_update.asp)
+
+30. Delete a student where `StudentID = 5`.
+    [SQLZoo: DELETE](https://sqlzoo.net/wiki/SELECT_basics)
+
+31. Add a new column `Email` to `Students`.
+    [W3Schools: ALTER TABLE](https://www.w3schools.com/sql/sql_alter.asp)
+
+32. Drop the column `Email`.
+    [SQLZoo: ALTER TABLE](https://sqlzoo.net/wiki/SELECT_basics)
+
+33. Rename column `Grade` to `Score`.
+    [W3Schools: ALTER TABLE](https://www.w3schools.com/sql/sql_alter.asp)
+
+34. Select students in ascending order of `Name` and descending order of `Age`.
+    [SQLZoo: ORDER BY](https://sqlzoo.net/wiki/SELECT_basics)
+
+35. Limit students whose age > 18 to first 2 rows.
+    [W3Schools: LIMIT](https://www.w3schools.com/sql/sql_top.asp)
+
+36. Find students whose name does not contain `'a'`.
+    [SQLZoo: LIKE](https://sqlzoo.net/wiki/SELECT_basics)
+
+37. Select students where `Grade` is not null.
+    [W3Schools: IS NOT NULL](https://www.w3schools.com/sql/sql_isnull.asp)
+
+38. Select students whose age is null.
+    [SQLZoo: IS NULL](https://sqlzoo.net/wiki/SELECT_basics)
+
+39. Select students whose age is not null.
+    [W3Schools: IS NOT NULL](https://www.w3schools.com/sql/sql_isnull.asp)
+
+40. Select all students using `SELECT *` with a comment in SQL.
+    [SQLZoo: Comments](https://sqlzoo.net/wiki/SELECT_basics)
+
+SQL_Intermediate:
+
+Easy (41–60):
+
+41. Count students per grade using `GROUP BY`.
+    [SQLZoo: GROUP BY](https://sqlzoo.net/wiki/SUM_and_COUNT)
+
+42. Find average age per grade.
+    [W3Schools: GROUP BY](https://www.w3schools.com/sql/sql_groupby.asp)
+
+43. Find max and min age per grade.
+    [SQLZoo: GROUP BY](https://sqlzoo.net/wiki/SUM_and_COUNT)
+
+44. List students whose names contain `'a'`.
+    [W3Schools: LIKE](https://www.w3schools.com/sql/sql_like.asp)
+
+45. Select all students and sort by `Grade` and `Age`.
+    [SQLZoo: ORDER BY](https://sqlzoo.net/wiki/SELECT_basics)
+
+46. Use `LEFT JOIN` to list students and their courses (null if not enrolled).
+    [SQLZoo: LEFT JOIN](https://sqlzoo.net/wiki/JOINS)
+
+47. Use `INNER JOIN` to list students enrolled in courses.
+    [W3Schools: INNER JOIN](https://www.w3schools.com/sql/sql_join_inner.asp)
+
+48. Use `RIGHT JOIN` to list all courses and students enrolled.
+    [SQLZoo: RIGHT JOIN](https://sqlzoo.net/wiki/JOINS)
+
+49. Select students enrolled in exactly one course using `COUNT` and `GROUP BY`.
+    [W3Schools: GROUP BY](https://www.w3schools.com/sql/sql_groupby.asp)
+
+50. Select students enrolled in more than one course using `HAVING`.
+    [SQLZoo: HAVING](https://sqlzoo.net/wiki/SELECT_basics)
+
+51. Select the highest scoring student in each course.
+    [HackerRank: Select](https://www.hackerrank.com/challenges/select-all-sql/problem)
+
+52. Use `LIKE` to find students with names ending in `'n'`.
+    [W3Schools: LIKE](https://www.w3schools.com/sql/sql_like.asp)
+
+53. Use string functions to uppercase all student names.
+    [SQLZoo: UPPER](https://sqlzoo.net/wiki/SELECT_basics)
+
+54. Use string functions to lowercase all student names.
+    [W3Schools: LOWER()](https://www.w3schools.com/sql/sql_func_lower.asp)
+
+55. Concatenate `FirstName` and `LastName` into `FullName`.
+    [SQLZoo: CONCAT](https://sqlzoo.net/wiki/SELECT_basics)
+
+56. Select students who are older than average age.
+    [HackerRank: Select](https://www.hackerrank.com/challenges/select-all-sql/problem)
+
+57. Find students whose name starts with `'A'` and grade is `'B'`.
+    [SQLZoo: LIKE](https://sqlzoo.net/wiki/SELECT_basics)
+
+58. Count the number of students per course.
+    [W3Schools: COUNT()](https://www.w3schools.com/sql/sql_func_count.asp)
+
+59. List courses with no students enrolled.
+    [SQLZoo: LEFT JOIN](https://sqlzoo.net/wiki/JOINS)
+
+60. List students whose grade is not `'A'` or `'B'`.
+    [W3Schools: WHERE NOT](https://www.w3schools.com/sql/sql_where.asp)
+
+SQL_Intermediate (61–80):
+
+61. Write a subquery to find students older than average age.
+    [HackerRank: Select](https://www.hackerrank.com/challenges/select-all-sql/problem)
+
+62. Write a correlated subquery to find students scoring above average in their course.
+    [Mode Analytics: Subqueries](https://mode.com/sql-tutorial/sql-sub-queries/)
+
+63. Use alias to rename `COUNT(StudentID)` as `TotalStudents`.
+    [W3Schools: AS](https://www.w3schools.com/sql/sql_alias.asp)
+
+64. Join `Students` and `Enrollments` to find total courses per student.
+    [SQLZoo: JOINS](https://sqlzoo.net/wiki/JOINS)
+
+65. Join `Students`, `Enrollments`, `Courses` to list student names and course names.
+    [W3Schools: INNER JOIN](https://www.w3schools.com/sql/sql_join_inner.asp)
+
+66. Find students whose names contain `'e'` and are enrolled in `'Math'`.
+    [SQLZoo: LIKE & JOIN](https://sqlzoo.net/wiki/SELECT_basics)
+
+67. Count students per course and order by total descending.
+    [HackerRank: GROUP BY](https://www.hackerrank.com/challenges/aggregations/problem)
+
+68. Select students with maximum grade per course using subquery.
+    [Mode Analytics: Subqueries](https://mode.com/sql-tutorial/sql-sub-queries/)
+
+69. Use `HAVING` to find grades with more than 2 students.
+    [SQLZoo: HAVING](https://sqlzoo.net/wiki/SELECT_basics)
+
+70. Select students not enrolled in `'Science'` using `NOT IN` subquery.
+    [W3Schools: Subquery](https://www.w3schools.com/sql/sql_subquery.asp)
+
+71. Use `CASE` to create a column `'AgeGroup'`: Teen (<20), Adult (20-25), Other (>25).
+    [Mode Analytics: CASE](https://mode.com/sql-tutorial/sql-case/)
+
+72. Use `COALESCE` to replace null grades with `'Not Assigned'`.
+    [W3Schools: COALESCE](https://www.w3schools.com/sql/func_sqlserver_coalesce.asp)
+
+73. Find students whose names have length > 5 using `LENGTH()`.
+    [SQLZoo: String Functions](https://sqlzoo.net/wiki/SELECT_basics)
+
+74. Find students whose names contain `'a'` or `'e'`.
+    [W3Schools: LIKE](https://www.w3schools.com/sql/sql_like.asp)
+
+75. Select distinct combinations of grade and course.
+    [SQLZoo: DISTINCT](https://sqlzoo.net/wiki/SELECT_basics)
+
+76. Calculate sum of grades per course.
+    [HackerRank: SUM()](https://www.hackerrank.com/challenges/aggregations/problem)
+
+77. Find courses with average age > 20.
+    [Mode Analytics: Aggregate Functions](https://mode.com/sql-tutorial/sql-aggregates/)
+
+78. Select top 3 students per course using `LIMIT`.
+    [SQLZoo: LIMIT](https://sqlzoo.net/wiki/SELECT_basics)
+
+79. Find students whose grades are the same as student with `StudentID=3` using subquery.
+    [W3Schools: Subquery](https://www.w3schools.com/sql/sql_subquery.asp)
+
+80. Select students enrolled in exactly 2 courses using `GROUP BY` and `HAVING`.
+    [SQLZoo: HAVING](https://sqlzoo.net/wiki/SELECT_basics)
+
+Perfect! Here’s the **SQL\_Advanced (81–105)** set with source links for each question. These cover **window functions, CTEs, advanced subqueries, CASE statements, and query optimization**.
+
+SQL_Advanced (81–105):
+
+Easy (81–90):
+
+81. Use `ROW_NUMBER()` to rank students by `Age`.
+    [Mode Analytics: Window Functions](https://mode.com/sql-tutorial/sql-window-functions/)
+
+82. Use `RANK()` to rank students by `Grade`.
+    [SQLZoo: Ranking Functions](https://sqlzoo.net/wiki/Window_functions)
+
+83. Use `DENSE_RANK()` for students in each course by grade.
+    [W3Schools: DENSE\_RANK()](https://www.w3schools.com/sql/func_sqlserver_dense_rank.asp)
+
+84. Create a simple CTE to select students aged > 18.
+    [Mode Analytics: CTEs](https://mode.com/sql-tutorial/sql-cte/)
+
+85. Use `CASE` to assign performance `'Excellent'` for grade `'A'`, `'Good'` for `'B'`, else `'Average'`.
+    [SQLZoo: CASE](https://sqlzoo.net/wiki/CASE)
+
+86. Select students using `ROW_NUMBER()` partitioned by `Grade`.
+    [W3Schools: ROW\_NUMBER()](https://www.w3schools.com/sql/func_sqlserver_row_number.asp)
+
+87. Find cumulative age of students ordered by `StudentID` using window function.
+    [Mode Analytics: Window Functions](https://mode.com/sql-tutorial/sql-window-functions/)
+
+88. Select top student per course using window function.
+    [SQLZoo: Ranking Functions](https://sqlzoo.net/wiki/Window_functions)
+
+89. Select students where their age rank is 1 per grade.
+    [W3Schools: RANK()](https://www.w3schools.com/sql/func_sqlserver_rank.asp)
+
+90. Use `NTILE(4)` to divide students into quartiles by age.
+    [Mode Analytics: NTILE](https://mode.com/sql-tutorial/sql-window-functions/)
+
+Intermediate (91–105):
+
+91. Use CTE to calculate total students per grade and select grades with more than 2 students.
+    [Mode Analytics: CTEs](https://mode.com/sql-tutorial/sql-cte/)
+
+92. Find students scoring higher than average per course using correlated subquery.
+    [W3Schools: Subquery](https://www.w3schools.com/sql/sql_subquery.asp)
+
+93. Use multiple window functions to generate leaderboard per course.
+    [Mode Analytics: Window Functions](https://mode.com/sql-tutorial/sql-window-functions/)
+
+94. Use recursive CTE to calculate cumulative sum of ages by `StudentID`.
+    [Mode Analytics: Recursive CTE](https://mode.com/sql-tutorial/sql-recursive-cte/)
+
+95. Find second highest age per grade using `ROW_NUMBER()`.
+    [W3Schools: ROW\_NUMBER()](https://www.w3schools.com/sql/func_sqlserver_row_number.asp)
+
+96. Find third highest grade per course using `RANK()`.
+    [SQLZoo: Ranking Functions](https://sqlzoo.net/wiki/Window_functions)
+
+97. Use `CASE` to assign performance levels based on multiple conditions (age, grade, course count).
+    [Mode Analytics: CASE](https://mode.com/sql-tutorial/sql-case/)
+
+98. Optimize a query joining `Students`, `Courses`, `Enrollments` for students with more than 3 courses.
+    [StrataScratch: SQL Optimization](https://www.stratascratch.com/blog/sql-query-optimization-techniques/)
+
+99. Use CTE and `SUM()` to calculate total age per course.
+    [Mode Analytics: CTEs & Aggregates](https://mode.com/sql-tutorial/sql-cte/)
+
+100. Use window function to find difference between each student’s age and average age of course.
+     [Mode Analytics: Window Functions](https://mode.com/sql-tutorial/sql-window-functions/)
+
+101. Find students whose grade is higher than the average of students in all courses using nested subqueries.
+     [W3Schools: Subquery](https://www.w3schools.com/sql/sql_subquery.asp)
+
+102. Partition students by course and rank them by grade descending using `DENSE_RANK()`.
+     [SQLZoo: Ranking Functions](https://sqlzoo.net/wiki/Window_functions)
+
+103. Use CTE to find top 2 oldest students per course.
+     [Mode Analytics: CTEs](https://mode.com/sql-tutorial/sql-cte/)
+
+104. Use recursive CTE to create a series of student IDs.
+     [Mode Analytics: Recursive CTE](https://mode.com/sql-tutorial/sql-recursive-cte/)
+
+105. Use window function to calculate running total of grades per course.
+     [Mode Analytics: Window Functions](https://mode.com/sql-tutorial/sql-window-functions/)
